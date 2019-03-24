@@ -25,57 +25,73 @@ class GameState {
     virtual void update(sf::Time delta)=0;
     virtual void draw(sf::RenderWindow& window)=0;
 
-  private:
+  protected:
     Game* m_game;
 };
 
 class NoCoinState : public GameState {
 public:
-  NoCoinState (Game* game);
-  void insertCoin();
-  void pressStartButton();
-  void moveJoystick(sf::Vector2i direction);
-  void update(sf::Time delta);
-  void draw(sf::RenderWindow& window);
+    NoCoinState (Game* game);
+    void insertCoin();
+    void pressStartButton();
+    void moveJoystick(sf::Vector2i direction);
+    void update(sf::Time delta);
+    void draw(sf::RenderWindow& window);
+
+private:
+    sf::Text m_text;
+    sf::Sprite m_sprite;
+    bool m_displayText;
 };
 
 class GetReadyState : public GameState {
 public:
-  GetReadyState (Game* game);
-  void insertCoin();
-  void pressStartButton();
-  void moveJoystick(sf::Vector2i direction);
-  void update(sf::Time delta);
-  void draw(sf::RenderWindow& window);
+    GetReadyState (Game* game);
+    void insertCoin();
+    void pressStartButton();
+    void moveJoystick(sf::Vector2i direction);
+    void update(sf::Time delta);
+    void draw(sf::RenderWindow& window);
+
+private:
+    sf::Text m_text;
 };
 
 class PlayingState : public GameState {
 public:
-  PlayingState (Game* game);
-  void insertCoin();
-  void pressStartButton();
-  void moveJoystick(sf::Vector2i direction);
-  void update(sf::Time delta);
-  void draw(sf::RenderWindow& window);
+    PlayingState (Game* game);
+    void insertCoin();
+    void pressStartButton();
+    void moveJoystick(sf::Vector2i direction);
+    void update(sf::Time delta);
+    void draw(sf::RenderWindow& window);
 };
 
 class WonState : public GameState {
 public:
-  WonState (Game* game);
-  void insertCoin();
-  void pressStartButton();
-  void moveJoystick(sf::Vector2i direction);
-  void update(sf::Time delta);
-  void draw(sf::RenderWindow& window);
+    WonState (Game* game);
+    void insertCoin();
+    void pressStartButton();
+    void moveJoystick(sf::Vector2i direction);
+    void update(sf::Time delta);
+    void draw(sf::RenderWindow& window);
+
+private:
+    sf::Text m_text;
 };
 
 class LostState : public GameState {
 public:
-  LostState (Game* game);
-  void insertCoin();
-  void pressStartButton();
-  void moveJoystick(sf::Vector2i direction);
-  void update(sf::Time delta);
-  void draw(sf::RenderWindow& window);
+    LostState (Game* game);
+    void insertCoin();
+    void pressStartButton();
+    void moveJoystick(sf::Vector2i direction);
+    void update(sf::Time delta);
+    void draw(sf::RenderWindow& window);
+
+private:
+    sf::Text m_text;
+    sf::Time m_countDown;
+    sf::Text m_countDownText;
 };
 #endif

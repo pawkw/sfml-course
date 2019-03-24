@@ -11,6 +11,10 @@ public:
     ~Game();
 
     void run();
+    
+    sf::Font& getFont();
+    sf::Texture& getTexture();
+    sf::Texture& getLogo();
 
     void changeGameState(GameState::State gameState);
 
@@ -18,6 +22,9 @@ private:
     sf::RenderWindow m_window;
     GameState* m_currentState;
     std::array<GameState*, GameState::Count> m_gameStates;
+    sf::Font m_font;
+    sf::Texture m_logo;
+    sf::Texture m_texture;
 };
 
 #endif // PACWOMAN_GAME_HPP

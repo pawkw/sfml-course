@@ -177,6 +177,141 @@ src/GameState.cpp.s:
 	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/GameState.cpp.s
 .PHONY : src/GameState.cpp.s
 
+src/entities/Bonus.o: src/entities/Bonus.cpp.o
+
+.PHONY : src/entities/Bonus.o
+
+# target to build an object file
+src/entities/Bonus.cpp.o:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Bonus.cpp.o
+.PHONY : src/entities/Bonus.cpp.o
+
+src/entities/Bonus.i: src/entities/Bonus.cpp.i
+
+.PHONY : src/entities/Bonus.i
+
+# target to preprocess a source file
+src/entities/Bonus.cpp.i:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Bonus.cpp.i
+.PHONY : src/entities/Bonus.cpp.i
+
+src/entities/Bonus.s: src/entities/Bonus.cpp.s
+
+.PHONY : src/entities/Bonus.s
+
+# target to generate assembly for a file
+src/entities/Bonus.cpp.s:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Bonus.cpp.s
+.PHONY : src/entities/Bonus.cpp.s
+
+src/entities/Character.o: src/entities/Character.cpp.o
+
+.PHONY : src/entities/Character.o
+
+# target to build an object file
+src/entities/Character.cpp.o:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Character.cpp.o
+.PHONY : src/entities/Character.cpp.o
+
+src/entities/Character.i: src/entities/Character.cpp.i
+
+.PHONY : src/entities/Character.i
+
+# target to preprocess a source file
+src/entities/Character.cpp.i:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Character.cpp.i
+.PHONY : src/entities/Character.cpp.i
+
+src/entities/Character.s: src/entities/Character.cpp.s
+
+.PHONY : src/entities/Character.s
+
+# target to generate assembly for a file
+src/entities/Character.cpp.s:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Character.cpp.s
+.PHONY : src/entities/Character.cpp.s
+
+src/entities/Dot.o: src/entities/Dot.cpp.o
+
+.PHONY : src/entities/Dot.o
+
+# target to build an object file
+src/entities/Dot.cpp.o:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Dot.cpp.o
+.PHONY : src/entities/Dot.cpp.o
+
+src/entities/Dot.i: src/entities/Dot.cpp.i
+
+.PHONY : src/entities/Dot.i
+
+# target to preprocess a source file
+src/entities/Dot.cpp.i:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Dot.cpp.i
+.PHONY : src/entities/Dot.cpp.i
+
+src/entities/Dot.s: src/entities/Dot.cpp.s
+
+.PHONY : src/entities/Dot.s
+
+# target to generate assembly for a file
+src/entities/Dot.cpp.s:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Dot.cpp.s
+.PHONY : src/entities/Dot.cpp.s
+
+src/entities/Ghost.o: src/entities/Ghost.cpp.o
+
+.PHONY : src/entities/Ghost.o
+
+# target to build an object file
+src/entities/Ghost.cpp.o:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Ghost.cpp.o
+.PHONY : src/entities/Ghost.cpp.o
+
+src/entities/Ghost.i: src/entities/Ghost.cpp.i
+
+.PHONY : src/entities/Ghost.i
+
+# target to preprocess a source file
+src/entities/Ghost.cpp.i:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Ghost.cpp.i
+.PHONY : src/entities/Ghost.cpp.i
+
+src/entities/Ghost.s: src/entities/Ghost.cpp.s
+
+.PHONY : src/entities/Ghost.s
+
+# target to generate assembly for a file
+src/entities/Ghost.cpp.s:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Ghost.cpp.s
+.PHONY : src/entities/Ghost.cpp.s
+
+src/entities/Pacwoman.o: src/entities/Pacwoman.cpp.o
+
+.PHONY : src/entities/Pacwoman.o
+
+# target to build an object file
+src/entities/Pacwoman.cpp.o:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Pacwoman.cpp.o
+.PHONY : src/entities/Pacwoman.cpp.o
+
+src/entities/Pacwoman.i: src/entities/Pacwoman.cpp.i
+
+.PHONY : src/entities/Pacwoman.i
+
+# target to preprocess a source file
+src/entities/Pacwoman.cpp.i:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Pacwoman.cpp.i
+.PHONY : src/entities/Pacwoman.cpp.i
+
+src/entities/Pacwoman.s: src/entities/Pacwoman.cpp.s
+
+.PHONY : src/entities/Pacwoman.s
+
+# target to generate assembly for a file
+src/entities/Pacwoman.cpp.s:
+	$(MAKE) -f CMakeFiles/pacwoman.dir/build.make CMakeFiles/pacwoman.dir/src/entities/Pacwoman.cpp.s
+.PHONY : src/entities/Pacwoman.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -219,6 +354,21 @@ help:
 	@echo "... src/GameState.o"
 	@echo "... src/GameState.i"
 	@echo "... src/GameState.s"
+	@echo "... src/entities/Bonus.o"
+	@echo "... src/entities/Bonus.i"
+	@echo "... src/entities/Bonus.s"
+	@echo "... src/entities/Character.o"
+	@echo "... src/entities/Character.i"
+	@echo "... src/entities/Character.s"
+	@echo "... src/entities/Dot.o"
+	@echo "... src/entities/Dot.i"
+	@echo "... src/entities/Dot.s"
+	@echo "... src/entities/Ghost.o"
+	@echo "... src/entities/Ghost.i"
+	@echo "... src/entities/Ghost.s"
+	@echo "... src/entities/Pacwoman.o"
+	@echo "... src/entities/Pacwoman.i"
+	@echo "... src/entities/Pacwoman.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
